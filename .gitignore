@@ -1,5 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Артефакты сборки
+*.tgz
+*.tar.gz
+*.zip
 
+# Папки сборки
+out/
+.next/
+node_modules/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
 # dependencies
 /node_modules
 /.pnp
